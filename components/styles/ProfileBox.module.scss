@@ -1,0 +1,12 @@
+.profile {
+  display: flex;
+  align-items: center;
+
+  .profilePic {
+    margin-right: 0.875rem;
+    margin-bottom: 0px;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+  }
+}
