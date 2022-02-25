@@ -14,3 +14,56 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1,
+p {
+  margin: 0px !important;
+}
+
+.react-toggle-track-check,
+.react-toggle-track-x {
+  position: absolute !important;
+  width: 1rem !important;
+  height: 1rem !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  line-height: 0 !important;
+
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    margin-bottom: 1.75rem !important;
+  }
+}
+
+.react-toggle-track-x {
+  right: 5px !important;
+}
+
+.react-toggle--checked .react-toggle-track {
+  background-color: #4d4d4d !important;
+}
+
+.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {
+  background-color: #000000 !important;
+}
+
+$theme-colors: (
+  "textLink": #d23669,
+);
+
+a {
+  box-shadow: 0 1px 0 0 currentColor;
+  color: map-get($theme-colors, "textLink");
+  text-decoration: none;
+}
